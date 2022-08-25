@@ -62,8 +62,3 @@ class Person
   end
 end
 
-stella = Person.new("Stella")
-felix = Person.new("Felix")
-puts stella.call_friend(felix)
-puts felix.call_friend(stella)
-puts stella
